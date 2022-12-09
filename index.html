@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+</head>
+<body style="font-family: calibri;">
+    <h1>Registration Form</h1>
+    <div><strong>
+        <p>First Name: *<input type="text"></p>
+
+        <p>Last Name: *<input type="text"></p>
+
+        <p>Email Address: *<input type="text"></p>
+
+        <p>password: *<input type="password"></p>
+
+        <p>confirm password: *<input type="password"></p>
+
+        <p>Birthday: <input type="date" name="birthday"></p>
+    </div></strong>
+    <div>
+        <p><strong>Gender identity:</strong></p> 
+        <div>
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+
+            <input type="radio" name="gender" id="female">
+            <label for="female">Female</label>    
+
+            <input type="radio" name="gender" id="NB">
+            <label for="NB">Non Binary </label>
+
+            <input type="radio" name="gender" id="NA">
+            <label for="NA">I prefer not to answer</label>  
+        </div>
+    </div>
+    <div>
+        <p><strong>a short description about myself:</strong></p>
+    <textarea name="bio" style="height: 80px; width: 400px" maxlength="240"></textarea>
+    </div>
+    <div>
+        <strong>Favorite Language: </strong>
+        <select name="favLanguage">
+            <option>Javascript</option>
+            <option>Python</option>
+            <option>Java</option>
+            <option>C++</option>
+            <option>other</option>
+        </select>
+    </div> 
+    <div>
+        <p><input type="checkbox" name="emails" id="emails">
+        <strong>Yes, I would like to receive periodic email updates.</strong>
+        </p>
+    </div>
+    <div>
+        <input type="submit" value="Create Account" style="border-style: outset; border-color: black; border-radius: 3px; box-shadow: 10px black;">
+    </div>
+    <br>
+    <br>
+    <p>* Indicates a required field</p>
+
+</body>
+</html>
